@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+
+<link rel="stylesheet" href="css/normalize.css"> <!--para enlazar carpetas -->
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> <!--agregar fuente de googlefonts -->
+<link rel="stylesheet" href="css/style.css"> <!--shift+alt+abajo duplica linea -->
+    
+</head>
+<body> <!--donde va el codigo -->
+    <header class="header">
+        <a href="index.html"> <!--redireccion a la pagina principal -->
+            <img class="header__logo" src="img/logo.png" alt="Logotipo"> <!--imagen determinada --> <!--alt=Logotipo (texto alternativo) -->
+        </a>
+    </header>
+
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a> <!--a*2+shift duplicado de la linea -->
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a><!--para escribir en dos o mas lineas a la vez, alt+click izquierdo en la parte inicial y siguiente -->
+    </nav>
+
+    <main class="contenedor"> <!--Titulo "Nuestros productos"-->
+        <h1> Nosotros</h1>
+
+        <div class="nosotros">
+        <div class="nosotros__contenido">
+            <p> <!--copiamos texto de impsum.com y la pegamos aca-->
+                Donec accumsan consectetur sollicitudin. Praesent vulputate elit a lacus pulvinar, eget blandit nisi placerat. 
+                Praesent congue, risus at molestie commodo, nunc nunc tristique eros, nec euismod leo mi varius tortor. 
+                Proin vehicula commodo dolor in dictum. Nulla facilisi. Sed elit neque, bibendum cursus ultrices sed, molestie sed nunc.</p>
+
+                <p>Vestibulum et lacus nulla. Nulla fringilla nisi pharetra risus auctor gravida. Ut nunc quam, bibendum et mollis at,
+                 posuere condimentum ligula. In et tincidunt eros, eget interdum magna. Aenean ac libero quis ipsum posuere 
+                 pulvinar sit amet ut eros. Fusce interdum nunc neque, rhoncus posuere urna dictum non. Praesent rhoncus vehicula velit. 
+                 Cras dignissim tempor nisl ut vehicula. Phasellus malesuada convallis erat, et bibendum dui efficitur vel.</p>
+        </div>
+        <img class="nosotros__imagen" src="img/nosotros.jpg" alt="imagen nosotros">
+    </div>
+</main>
+
+<section class="contenedor comprar">
+    <h2 class="comprar__titulo">¿Porque comprar con nosotros?</h2>
+
+    <div class="bloques">
+
+        <div class="bloque">
+            <img class="bloque__imagen" src="img/icono_1.png" alt="porque comprar">
+                <h3 class="bloque__titulo">El mejor precio</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div><!--bloque-->
+
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="porque comprar">
+                    <h3 class="bloque__titulo">Para Devs</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div><!--bloque-->
+
+
+                <div class="bloque">
+                    <img class="bloque__imagen" src="img/icono_3.png" alt="porque comprar">
+                        <h3 class="bloque__titulo">Envio Gratis</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div><!--bloque-->
+
+                    <div class="bloque">
+                        <img class="bloque__imagen" src="img/icono_4.png" alt="porque comprar">
+                            <h3 class="bloque__titulo">La Mejor Calidad</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div><!--bloque-->
+    </div><!--bloques-->
+</section>
+
+<footer class="footer">
+    <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
+</footer>
+
+</body>
+</html>
